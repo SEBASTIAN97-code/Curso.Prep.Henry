@@ -176,7 +176,7 @@ function deEuroAdolar(euro){
 
 
 function esVocal(letra){
-if(letra=='a' , letra=='e' , letra=='i' , letra=='o' , letra=='u')//Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
+if(letra=='a'||letra=='e'||letra=='i'||letra=='o'||letra=='u')//Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
 {return 'Es vocal'} //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
 else if(letra.length>1) //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
 {return 'Dato incorrecto'}//Escribe tu código aquí
